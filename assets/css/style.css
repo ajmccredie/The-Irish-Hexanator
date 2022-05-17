@@ -60,5 +60,9 @@ h1 {
 	display: inline-block;
 	width: 20%;
 	font-size: 4.5vmin;
-	color: #7112ee
+}
+
+.fab, .far {
+    font-weight: 400;
+    color: rgb(22, 219, 22);
 }
