@@ -10,8 +10,36 @@ h1 {
     color: blueviolet; 
 }
 
+.sections {
+    
+}
+
+.button {
+
+}
+
+.output { 
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+}
+
 #firstButton {
     font-size: 2rem;
     font-style: italic;
-    color: blueviolet;
+    color: green;
+}
+
+#secondButton {
+    font-size: 2rem;
+    font-style: italic;
+    color: white;
+    background-color: lightgrey;
+}
+
+#thirdButton {
+    font-size: 2rem;
+    font-style: italic;
+    color: orange;
 }
