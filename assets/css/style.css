@@ -12,6 +12,14 @@ h1 {
     text-align: center;
 }
 
+p {
+    font-size: 2rem;
+    font-style: italic;
+    color: orange; 
+    margin: 50px auto;
+    text-align: center;
+}
+
 .sections {
     margin: 50px auto;
     text-align: center;
