@@ -13,6 +13,17 @@
 
 let firstButton = document.getElementById('firstButton');
 
+function gentext () {
+    
+    let phraseList = ["zero", "one", "two", "three", "four", "five","six", "seven", "eight", "nine"];
+    
+    let firstPhrase = document.getElementByiD("firstOutput");
+
+    firstOutput.innerHTML = phraseList[Math.floor(Math.random)()*phraseList.length];
+
+
+}
+
 let firstOutput = document.getElementById('firstOutput');
 
 let secondButton = document.getElementById('secondButton');
