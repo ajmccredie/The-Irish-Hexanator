@@ -11,18 +11,15 @@
 //function to reload or reset the page
 
 
-let firstButton = document.getElementById('firstButton');
-
-function gentext () {
+function gentext() {
     
-    let phraseList = ["zero", "one", "two", "three", "four", "five","six", "seven", "eight", "nine"];
-    
-    let firstPhrase = document.getElementByiD("firstOutput");
+    let phraseList = ["zero", "one", "two", "three", "four", "five","six", "seven", "eight", "nine",];
 
-    firstOutput.innerHTML = phraseList[Math.floor(Math.random)()*phraseList.length];
+    let firstPhrase = document.getElementById('firstResult');
 
-
+    firstPhrase.innerHTML = phraseList[Math.floor(Math.random()*phraseList.length)];
 }
+
 
 let firstOutput = document.getElementById('firstOutput');
 
