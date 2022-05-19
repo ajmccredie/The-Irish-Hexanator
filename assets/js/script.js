@@ -1,8 +1,17 @@
 //function for inputting name
 
-//create a list of phrases
 
-//function for maths.random to give 3 seperate results
+//function for maths.random to use 3 arrays to give three results
+
+function gentext() {
+    
+    let phraseListOne = ["zero", "one", "two", "three", "four", "five","six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
+
+    let firstPhrase = document.getElementById('firstResult');
+
+    firstPhrase.innerHTML = phraseListOne[Math.floor(Math.random()*phraseListOne.length)];
+}
+
 
 //function for splice or slice to remove used results from list of phrases
 
@@ -11,14 +20,6 @@
 //function to reload or reset the page
 
 
-function gentext() {
-    
-    let phraseList = ["zero", "one", "two", "three", "four", "five","six", "seven", "eight", "nine",];
-
-    let firstPhrase = document.getElementById('firstResult');
-
-    firstPhrase.innerHTML = phraseList[Math.floor(Math.random()*phraseList.length)];
-}
 
 
 let firstOutput = document.getElementById('firstOutput');
