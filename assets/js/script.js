@@ -15,9 +15,9 @@ function gentext() {
 }
 
 
-//function for splice or slice to remove used results from list of phrases
+//function needed for splice or slice to remove previously used results from list of phrases or maybe use three speperate arrays
 
-//function that takes the three results and adds them together
+//function needed that takes the three results and adds them together
 
 function add(firstPhrase, secondPhrase, thirdPhrase) {
     return firstPhrase+secondPhrase+thirdPhrase;   
@@ -26,18 +26,6 @@ function add(firstPhrase, secondPhrase, thirdPhrase) {
 alert(add (0+1+2));
 
 
-//function to reload or reset the page
+//function needed to reload or reset the page
 
-
-
-
-let firstOutput = document.getElementById('firstOutput');
-
-let secondButton = document.getElementById('secondButton');
-
-let secondOutput = document.getElementById('secondOutput');
-
-let thirdButton = document.getElementById('thirdButton');
-
-let thirdOutput = document.getElementById('thirdOutput')
 
