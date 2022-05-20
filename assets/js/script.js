@@ -1,5 +1,7 @@
 //function for inputting name
 
+let name = prompt();
+
 
 //function for maths.random to use 3 arrays to give three results
 
@@ -16,6 +18,13 @@ function gentext() {
 //function for splice or slice to remove used results from list of phrases
 
 //function that takes the three results and adds them together
+
+function add(firstPhrase, secondPhrase, thirdPhrase) {
+    return firstPhrase+secondPhrase+thirdPhrase;   
+}
+
+alert(add (0+1+2));
+
 
 //function to reload or reset the page
 
