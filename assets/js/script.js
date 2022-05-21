@@ -4,7 +4,7 @@
 
 function gentextOne() {
     
-    let phraseListOne = ["is a", "has always been a", "will never not be a", "smells like a", "looks like a", "sounds like a"];
+    let phraseListOne = ["will", "shall always", "is cursed to", "will forever", "is destined to", "is fated to"];
 
     let firstPhrase = document.getElementById('firstResult');
 
@@ -18,7 +18,7 @@ gentextOne()
 
 function gentextTwo() {
     
-    let phraseListTwo = ["massive", "no good", "low down", "stinky", "ridiculous", "foolish"];
+    let phraseListTwo = ["be covered in a massive", "be imprisoned in", "be chained to a", "be infected with", "be haunted by"];
 
     let secondPhrase = document.getElementById('secondResult');
 
@@ -29,7 +29,7 @@ gentextTwo()
 
 function gentextThree() {
     
-    let phraseListThree = ["eejit", "son of a gun", "bold boy", "party pooper", "moaner", "silly billy"];
+    let phraseListThree = ["Banshee poop", "Leprechaun spittle", "the Divil's fire", "boiling stout", "poison whiskey", "rotten potatoes"];
 
     let thirdPhrase = document.getElementById('thirdResult');
 
