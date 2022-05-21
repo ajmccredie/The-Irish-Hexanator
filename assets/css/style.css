@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -10,6 +10,7 @@ h1 {
     color: rgb(22, 219, 22); 
     margin: 50px auto;
     text-align: center;
+    font-family: Irish Grover;
 }
 
 #guide {

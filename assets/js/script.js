@@ -18,7 +18,7 @@ gentextOne()
 
 function gentextTwo() {
     
-    let phraseListTwo = ["be covered in a massive", "be imprisoned in", "be chained to a", "be infected with", "be haunted by"];
+    let phraseListTwo = ["be covered in", "be imprisoned in", "be chained to a", "be infected with", "be haunted by"];
 
     let secondPhrase = document.getElementById('secondResult');
 
@@ -42,8 +42,23 @@ gentextThree()
 
 //function needed that takes the three results and adds them together
 
-function fullPhrase() {
+function genHex() {
 
+
+    let finalPhrase = document.getElementById('finalResult');
+
+    let curse1 = [firstPhrase.innerHTML];
+    let curse2 = [secondPhrase.innerHTM];
+    let curse3 = [thirdPhrase.innerHTML];
+
+    finalPhrase.innerHTML = curse1.concat(" ", curse2, " ", curse3);
+}
+
+genHex()
+
+
+
+/*
     let sentence = document.getElementById('sentence');
     let curse1 = [firstPhrase.innerHTML];
     let curse2 = [secondPhrase.innerHTM];
@@ -55,6 +70,8 @@ function fullPhrase() {
 }
 
 fullPhrase()
+
+
 
 /*
     
