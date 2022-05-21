@@ -42,6 +42,7 @@ gentextThree()
 
 //function needed that takes the three results and adds them together
 
+
     /*function add(firstPhrase, secondPhrase, thirdPhrase) {
         return firstPhrase+secondPhrase+thirdPhrase;   
     }

@@ -12,6 +12,16 @@ h1 {
     text-align: center;
 }
 
+#guide {
+    height: 50vh;
+	width: 100%;
+    background-image: url(..//css/Images/TheLeprechaun.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+	margin-right: auto;
+    background-position: center;
+}
+
 p {
     font-size: 2rem;
     font-style: italic;
@@ -54,6 +64,16 @@ p {
     font-size: 2rem;
     font-style: italic;
     color: orange;
+}
+
+#full-phrase {
+    color: chartreuse;
+    font-size: 3rem;
+    font-style:normal;
+}
+
+#sentence {
+    color: green   
 }
 
 .social-networks {
