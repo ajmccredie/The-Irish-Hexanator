@@ -5,7 +5,7 @@
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-style: italic;
     color: rgb(22, 219, 22); 
     margin: 50px auto;
@@ -66,7 +66,7 @@ p {
     color: orange;
 }
 
-#full-phrase {
+#fullPhrase {
     color: chartreuse;
     font-size: 3rem;
     font-style:normal;

@@ -42,12 +42,26 @@ gentextThree()
 
 //function needed that takes the three results and adds them together
 
+function fullPhrase() {
 
-    /*function add(firstPhrase, secondPhrase, thirdPhrase) {
+    let curse1 = [firstResult];
+    let curse2 = [secondResult];
+    let curse3 = [thirdResult];
+
+    let result = text1.concat(" ", text2, " ", text3);
+}
+
+fullPhrase()
+
+/*
+    
+        let hex = (firstPhrase, secondPhrase, thirdPhrase) 
+
         return firstPhrase+secondPhrase+thirdPhrase;   
     }
 
-    alert(add (0+1+2));*/
+    add()
+ */   
 
 
 //function needed to reload or reset the page
