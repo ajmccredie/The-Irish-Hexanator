@@ -44,11 +44,14 @@ gentextThree()
 
 function fullPhrase() {
 
-    let curse1 = [firstResult];
-    let curse2 = [secondResult];
-    let curse3 = [thirdResult];
+    let sentence = document.getElementById('sentence');
+    let curse1 = [firstPhrase.innerHTML];
+    let curse2 = [secondPhrase.innerHTM];
+    let curse3 = [thirdPhrase.innerHTML];
 
-    let result = text1.concat(" ", text2, " ", text3);
+    let result = curse1.concat(" ", curse2, " ", curse3);
+
+    sentence.innerHTML = result;
 }
 
 fullPhrase()
