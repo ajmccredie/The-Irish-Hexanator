@@ -1,11 +1,10 @@
-//function for inputting name
-
-//function for maths.random to use 3 arrays to give three results
-
+//These variables are 'const' because/to ensure they won't change.  
 
 const secondPhrase = document.getElementById('secondResult');
 const thirdPhrase = document.getElementById('thirdResult');
 const firstPhrase = document.getElementById('firstResult');
+
+//These functions are needed to extract the values from 3 arrays to give three random results.
 
 function gentextOne() {
     
@@ -14,13 +13,9 @@ function gentextOne() {
     firstPhrase.innerHTML = phraseListOne[Math.floor(Math.random()*phraseListOne.length)];
 }
 
-
-//function needed for two more buttons
-
 function gentextTwo() {
     
     let phraseListTwo = ["be covered in", "be imprisoned in", "be chained to a", "be infected with", "be haunted by"];
-
 
     secondPhrase.innerHTML = phraseListTwo[Math.floor(Math.random()*phraseListTwo.length)];
 }
@@ -33,13 +28,11 @@ function gentextThree() {
     thirdPhrase.innerHTML = phraseListThree[Math.floor(Math.random()*phraseListThree.length)];
 }
 
-//function needed for splice or slice to remove previously used results from list of phrases or maybe use three speperate arrays
+//function needed for splice or slice to remove previously used results from list of phrases or maybe use three speperate arrays?
 
-//function needed that takes the three results and adds them together
-
+//This function takes the value of the input value (name) and the three 'curses' then adds them together to make a full sentence (the 'Hex').
 
 function genHex() {
-
 
     let finalPhrase = document.getElementById('finalResult');
     let name = document.getElementById("name").value;
@@ -50,33 +43,6 @@ function genHex() {
 //within the genHex function consider a For Loop to check that each curse and name has a value?!? Maybe an If Else statement / 
 
 //When I click button (eg phraseOne) I want to make sure it doesn't pick the same phrase twice/again 
-
-
-
-/*
-    let sentence = document.getElementById('sentence');
-    let curse1 = [firstPhrase.innerHTML];
-    let curse2 = [secondPhrase.innerHTM];
-    let curse3 = [thirdPhrase.innerHTML];
-
-    let result = curse1.concat(" ", curse2, " ", curse3);
-
-    sentence.innerHTML = result;
-}
-
-fullPhrase()
-
-
-
-/*
-    
-        let hex = (firstPhrase, secondPhrase, thirdPhrase) 
-
-        return firstPhrase+secondPhrase+thirdPhrase;   
-    }
-
-    add()
- */   
 
 
 //function needed to reload or reset the page
