@@ -40,11 +40,10 @@ function genHex() {
     finalPhrase.innerHTML = `${name} ${firstPhrase.innerHTML} ${secondPhrase.innerHTML} ${thirdPhrase.innerHTML}`;
 }
 
-//within the genHex function consider a For Loop to check that each curse and name has a value?!? Maybe an If Else statement / 
+/*Need more logic to prevent the user from picking the same random phrase for each 'curse' again. 
+perhaps within the genHex function consider a For Loop to check that each curse and name has a value?!? Maybe an If Else statement 
+So, When the user clicks a button (eg phraseOne) I want to make sure it doesn't pick the same phrase twice/again */
 
-//When I click button (eg phraseOne) I want to make sure it doesn't pick the same phrase twice/again 
-
-
-//function needed to reload or reset the page
+//function needed to reload or reset the page too. Perhaps on clicking a button for 'Back to Top'? 
 
 
