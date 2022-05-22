@@ -89,6 +89,22 @@ function genHex() {
     finalPhrase.innerHTML = `${name} ${firstPhrase.innerHTML} ${secondPhrase.innerHTML} ${thirdPhrase.innerHTML}`;
 }
 
+/*function EnableDisable(name) {
+    //Reference the Button.
+    var firstbutton = document.getElementsByClassName("button");
+
+    //Verify the TextBox value.
+    if (name.value.trim() != "") {
+        //Enable the TextBox when TextBox has value.
+        firstbutton.disabled = false;
+    } else {
+        //Disable the TextBox when TextBox is empty.
+        button.disabled = true;
+    }
+};*/ 
+
+
+
 /*Need more logic to prevent the user from picking the same random phrase for each 'curse' again. 
 perhaps within the genHex function consider a For Loop to check that each curse and name has a value?!? Maybe an If Else statement 
 So, When the user clicks a button (eg phraseOne) I want to make sure it doesn't pick the same phrase twice/again */

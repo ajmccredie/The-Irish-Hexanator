@@ -9,7 +9,7 @@ h1 {
     font-size: 3rem;
     font-style: italic;
     color: rgb(22, 219, 22); 
-    margin: 50px auto;
+    margin: 20px auto;
     text-align: center;
     font-family: Irish Grover;
 }
@@ -44,12 +44,12 @@ p {
     font-size: 2rem;
     font-style: italic;
     color: orange; 
-    margin: 50px auto;
+    margin: 20px auto;
     text-align: center;
 }
 
 .sections {
-    margin: 50px auto;
+    margin: 20px auto;
     text-align: center;
 }
 
@@ -60,7 +60,8 @@ p {
 #refresh {
 	margin-left: auto;
 	margin-right: auto;
-	width: fit-content
+	width: fit-content;
+    background-color: darkgrey;
 }
 
 .output {
@@ -96,6 +97,10 @@ p {
     font-style:normal;
 }
 
+button#refresh p {
+    color: white;
+}
+
 #sentence {
     color: green   
 }
@@ -103,7 +108,7 @@ p {
 .social-networks {
 	max-width: 50vw;
 	list-style-type: none;
-	margin: 50px auto;
+	margin: 20px auto;
 	padding: 0;
 	text-align: center
 }
