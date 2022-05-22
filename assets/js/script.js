@@ -4,6 +4,22 @@ const secondPhrase = document.getElementById('secondResult');
 const thirdPhrase = document.getElementById('thirdResult');
 const firstPhrase = document.getElementById('firstResult');
 
+/*const stopButton = document.getElementsByClassName('button');
+const input = document.getElementById('name');
+
+input.addEventListener('keyup', (e) => {
+    const value = e.currentTarget.value;
+
+    if (value === "") {
+        
+    stopButton.disabled == true;
+    }
+
+    else {
+    stopButton.disabled == false;
+    }
+});
+*/
 
 function checkForBlank() {
     
@@ -12,14 +28,14 @@ function checkForBlank() {
     return false;
     }
 
-    /*if (checkForBlank) === true {
-        e.preventDefault()
+    /*if (checkForBlank) === true; {
+        e.preventDefault();
     }*/
 }
 
+
 /*const name == document.getElementById('name');
 const errorElement == document.getElementById('error');
-
 
 Form.addEventListner(‘button’,  (e) => {
 
@@ -81,6 +97,4 @@ So, When the user clicks a button (eg phraseOne) I want to make sure it doesn't 
 
 //eventHandler for all buttons?
 
-//function needed to reload or reset the page too. Perhaps on clicking a button for 'Back to Top'? 
-
-
+//function needed to reload or reset the page too. Perhaps on clicking a button for Back to Top
