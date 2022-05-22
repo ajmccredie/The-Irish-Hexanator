@@ -26,7 +26,19 @@ h2 {
     margin-left: auto;
 	margin-right: auto;
     background-position: center;
+    /*animation-name: hero-zoom;
+    animation-duration: 5s;
+	animation-fill-mode: forwards;*/
 }
+
+
+/*@keyframes hero-zoom {
+	from {
+		transform: scale(1)
+	}
+	to {
+		transform: scale(2)
+	}*/
 
 p {
     font-size: 2rem;
@@ -46,7 +58,9 @@ p {
 }
 
 #refresh {
-    
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content
 }
 
 .output {

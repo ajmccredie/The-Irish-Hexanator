@@ -4,6 +4,27 @@ const secondPhrase = document.getElementById('secondResult');
 const thirdPhrase = document.getElementById('thirdResult');
 const firstPhrase = document.getElementById('firstResult');
 
+/*const name == document.getElementById('name');
+const errorElement == document.getElementById('error');
+
+
+
+Form.addEventListner(‘button’,  (e) => {
+
+let x = []
+if (name.value === ‘’ ¦¦ name.value == null) {
+
+    Messages.push(‘Nemesis name is required’)
+}
+
+If (messages.length > 0) {
+
+    e.preventDefault()
+
+    errorElement.innerText = messages.join(‘, ‘)
+})*/
+
+
 //These functions are needed to extract the values from 3 arrays to give three random results.
 
 function gentextOne() {
@@ -23,7 +44,7 @@ function gentextTwo() {
 
 function gentextThree() {
     
-    let phraseListThree = ["a mountain of Banshee poop!", "buckets of Leprechaun spittle!", "the Divil's fire for all eternity!", "a lake of boiling stout!", "poison whiskey for infinity!", "rotten potatoes for ten years!"];
+    let phraseListThree = ["a mountain of Banshee poop!", "buckets of Leprechaun spittle!", "the Divil's fire for all eternity!", "a lake of boiling stout!", "an ocean of poison whiskey for infinity!", "rotten potatoes for ten years!"];
 
     thirdPhrase.innerHTML = phraseListThree[Math.floor(Math.random()*phraseListThree.length)];
 }
