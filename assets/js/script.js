@@ -1,8 +1,8 @@
 //These variables are 'const' because/to ensure they won't change.  
-
+const firstPhrase = document.getElementById('firstResult');
 const secondPhrase = document.getElementById('secondResult');
 const thirdPhrase = document.getElementById('thirdResult');
-const firstPhrase = document.getElementById('firstResult');
+
 
 /*const stopButton = document.getElementsByClassName('button');
 const input = document.getElementById('name');
@@ -21,17 +21,10 @@ input.addEventListener('keyup', (e) => {
 });
 */
 
-function checkForBlank() {
-    
-    if (document.getElementById("name").value == '') {
-    alert("please enter your Nemesis' name")
-    return false;
-    }
 
     /*if (checkForBlank) === true; {
         e.preventDefault();
     }*/
-}
 
 
 /*const name == document.getElementById('name');
@@ -52,6 +45,12 @@ If (messages.length > 0) {
     errorElement.innerText = messages.join(‘, ‘)
 })*/
 
+function checkForBlank() {
+    
+    if (document.getElementById("name").value == '') {
+    alert("please enter your Nemesis' name")
+    return false;
+    }};
 
 //These functions are needed to extract the values from 3 arrays to give three random results.
 
@@ -88,6 +87,14 @@ function genHex() {
 
     finalPhrase.innerHTML = `${name} ${firstPhrase.innerHTML} ${secondPhrase.innerHTML} ${thirdPhrase.innerHTML}`;
 }
+
+/*function genGIF() {
+    
+    if (document.getElementById("genHex").value == true) {
+        alert("genGIF")
+        return true;
+}};*/
+
 
 /*function EnableDisable(name) {
     //Reference the Button.

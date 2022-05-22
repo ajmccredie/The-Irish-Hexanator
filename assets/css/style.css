@@ -105,6 +105,18 @@ button#refresh p {
     color: green   
 }
 
+#genGIF {
+    /*background-image: url(//assets/css/Images/TLGIF.gif);*/
+    height: 50vh;
+    width: auto;
+    background-image: url(https://c.tenor.com/fVwnvEsBvtEAAAAC/leprechaun-horror.gif);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    padding: 10px;
+}
+
 .social-networks {
 	max-width: 50vw;
 	list-style-type: none;
