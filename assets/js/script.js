@@ -23,7 +23,7 @@ function gentextTwo() {
 
 function gentextThree() {
     
-    let phraseListThree = ["Banshee poop", "Leprechaun spittle", "the Divil's fire", "boiling stout", "poison whiskey", "rotten potatoes"];
+    let phraseListThree = ["a mountain of Banshee poop!", "buckets of Leprechaun spittle!", "the Divil's fire for all eternity!", "a lake of boiling stout!", "poison whiskey for infinity!", "rotten potatoes for ten years!"];
 
     thirdPhrase.innerHTML = phraseListThree[Math.floor(Math.random()*phraseListThree.length)];
 }
@@ -43,6 +43,8 @@ function genHex() {
 /*Need more logic to prevent the user from picking the same random phrase for each 'curse' again. 
 perhaps within the genHex function consider a For Loop to check that each curse and name has a value?!? Maybe an If Else statement 
 So, When the user clicks a button (eg phraseOne) I want to make sure it doesn't pick the same phrase twice/again */
+
+//more logic needed so user must input a name or they can't proceed? an If Else or boolean? 
 
 //function needed to reload or reset the page too. Perhaps on clicking a button for 'Back to Top'? 
 
