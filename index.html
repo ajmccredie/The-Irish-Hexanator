@@ -19,7 +19,7 @@
 
   <div>
     <p >
-      Insert the name of your favuourite Nemesis and make three "curses" to put a Hex on them!   
+      Make three "curses" to put a Hex on your favuourite Nemesis!   
     </p>
   </div> 
   </section>
@@ -28,7 +28,7 @@
   <section class="sections">
     <div id="error"> 
 
-      <h2>Input your name</h2>
+      <h2>Insert your nemesis' name below</h2>
 
       <input id="name" name="name" type="text" placeholder="Who is your nemesis?"> 
 
@@ -37,14 +37,14 @@
   
   <section class="sections">
     <div> 
-      <h2>Start your phrase!</h2>
+      <h2>Start your Hex!</h2>
     </div>
 
     <div>
       
 <!change all onclicks to eventListners?>    
 
-        <button onclick="gentextOne();" class="button" id="firstButton">
+        <button onclick="gentextOne(); return checkForBlank()" class="button" id="firstButton">
           Curse!
       </button>
       
@@ -61,11 +61,11 @@
 
   <section class="sections">
     <div>
-      <h2>The middle of your phrase!</h2>
+      <h2>The middle of your Hex!</h2>
     </div>
 
     <div>
-      <button onclick="gentextTwo();" class="button" id="secondButton">
+      <button onclick="gentextTwo(); return checkForBlank()" class="button" id="secondButton">
         Curse!
       </button>
     </div>
@@ -80,11 +80,11 @@
 
   <section class="sections">
     <div>
-      <h2>The last part of your phrase</h2>
+      <h2>The last part of your Hex</h2>
     </div>
 
     <div>
-      <button onclick="gentextThree();" class="button" id="thirdButton">
+      <button onclick="gentextThree(); return checkForBlank()" class="button" id="thirdButton">
         Curse!
       </button>
     </div>
@@ -102,10 +102,10 @@
     <div>
     
     <div>
-      <Button onclick="genHex();">
+      <Button onclick="genHex(); return checkForBlank()">
         
         <p id="fullPhrase">
-        "Your Hex"
+        "Your Hex is ready to be cast"
         </p>
       
       </Button>
@@ -122,7 +122,7 @@
      
       <button id="refresh">
         <p>
-          Sure why not Hex that eejit again?
+          Sure why not Hex that eejit again, don't they deserve it?!
         </p>
       </button>
 

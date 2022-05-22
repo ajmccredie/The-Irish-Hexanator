@@ -4,9 +4,21 @@ const secondPhrase = document.getElementById('secondResult');
 const thirdPhrase = document.getElementById('thirdResult');
 const firstPhrase = document.getElementById('firstResult');
 
+
+function checkForBlank() {
+    
+    if (document.getElementById("name").value == '') {
+    alert("please enter your Nemesis' name")
+    return false;
+    }
+
+    /*if (checkForBlank) === true {
+        e.preventDefault()
+    }*/
+}
+
 /*const name == document.getElementById('name');
 const errorElement == document.getElementById('error');
-
 
 
 Form.addEventListner(‘button’,  (e) => {
@@ -66,6 +78,8 @@ perhaps within the genHex function consider a For Loop to check that each curse 
 So, When the user clicks a button (eg phraseOne) I want to make sure it doesn't pick the same phrase twice/again */
 
 //more logic needed so user must input a name or they can't proceed? an If Else or boolean? 
+
+//eventHandler for all buttons?
 
 //function needed to reload or reset the page too. Perhaps on clicking a button for 'Back to Top'? 
 
