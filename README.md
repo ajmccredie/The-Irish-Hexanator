@@ -128,6 +128,8 @@ Alternatively, once you have found the project repository in Github, you can cli
 
   - A way for users to add and play with their own curses to prodice unique personalised 'Hexes'. 
 
+  - More images and videos that are relevant could be added to enhanve UX 
+
   - A commercial page with branded merchandise with personalised 'Hexes' printed on them, such as T-Shirts, hats, mugs and other items generally found in a giftshop.  
 
   - A live social media platform feed where othere user's 'Hexes' can share and compare ideas for curses with images in real-time with each other. 
@@ -197,7 +199,9 @@ Alternatively, once you have found the project repository in Github, you can cli
 
 ## **[Unfixed Bugs](#unfixed-bugs)**
 
- - Although an alert works on clicking any of the buttons to remind the user they should first insert the name of their 'Nemesis' in the first input field, defining a function for this was chellenging. A number of video tutorials were found that almost helped solve the issue but these were all focused on inputs inside a form. 
+ - Although an alert works on clicking any of the buttons to remind the user they should first insert the name of their 'Nemesis' in the first input field, defining a function for this was chellenging. A number of video tutorials were found that almost helped solve the issue but these were all focused on inputs inside a form.
+
+ - I tried adding a GIF image using CSS and a JavaScript function to make it appear only when the user clicks the button that generates the full sentence at the end. However this was ultimately left out because it complicated both the CSS and javaScript code.   
     
 ## **[Technologies and Tools](#technologies-and-tools)**
      
