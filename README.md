@@ -195,7 +195,7 @@ Alternatively, once you have found the project repository in Github, you can cli
 
  
     
-    ## **[Technologies and Tools](#technologies-and-tools)**
+## **[Technologies and Tools](#technologies-and-tools)**
      
 - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improving the lighthouse scores for each page.
 - [nssport.com](https://nsspot.herokuapp.com/imagetowebp/) was used to convert images from .png to .webp for improving the lighthouse scores for each page.
@@ -269,6 +269,7 @@ As a starting point I began with a cocnept for a random word generator based on 
     - [How to dynamically disable a form button using Javascript, HTML, and CSS](https://www.youtube.com/watch?v=ge0T4Fl6M3A)
     - [JavaScript for Beginners #6 - Introduction to Functions](https://www.youtube.com/watch?v=JcKse_OhnfQ)
     - [Event Listeners - Javascript - Tutorial 14](https://www.youtube.com/watch?v=jrI0WFCCLWY)
+
 
    - My mentor, Sandeep Aggarwal, as well as a number of Code Institute Tutors and students were very supportive via slack and the Student Support Chat. The following tutors and students helped guide me and to tease out a range of issues I faced developing the project: 
      
