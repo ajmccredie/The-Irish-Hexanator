@@ -6,20 +6,56 @@ const thirdPhrase = document.getElementById('thirdResult');
 
 /*const stopButton = document.getElementsByClassName('button');
 const input = document.getElementById('name');
+*/
 
-input.addEventListener('keyup', (e) => {
-    const value = e.currentTarget.value;
+const button = document.getElementById('firstButton') 
+button.addEventListener('click', (e) => {
+    console.log('This is the event target:', e.target)
+
+    if (checkForBlank()) {
+        console.log('checked for blank and found text')
+    }
+
+});
+
+
+function checkForBlank() {
+
+    if (document.getElementById("name").value !== '') {
+    // alert("please enter your Nemesis' name")
+        console.log('not blank')
+        return true
+    } else {
+        console.log('blank')
+    }
+};
+
+
+
+/*
+const button = document.getElementsById('firstButton') 
+button.addEventListener('click', (e) => {
 
     if (value === "") {
         
-    stopButton.disabled == true;
+    button.disabled == true;
     }
 
     else {
-    stopButton.disabled == false;
+    button.disabled == false;
     }
+
 });
+    function checkForBlank() {
+    
+    if (document.getElementById("name").value == '') {
+    alert("please enter your Nemesis' name")
+    return false;
+    }};
 */
+
+
+
 
 
     /*if (checkForBlank) === true; {
@@ -45,12 +81,6 @@ If (messages.length > 0) {
     errorElement.innerText = messages.join(‘, ‘)
 })*/
 
-function checkForBlank() {
-    
-    if (document.getElementById("name").value == '') {
-    alert("please enter your Nemesis' name")
-    return false;
-    }};
 
 //These functions are needed to extract the values from 3 arrays to give three random results.
 
