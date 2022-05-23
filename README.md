@@ -55,6 +55,8 @@ The website consists of one page:
 ### **[Homepage](#homepage)** 
 
   - The landing page immediately engages the user with a large [hero image](#hero-image). The image is of a fun and scary leprechaun. This aims to set the user's expectations around the purpose of this website and to illicit a positive emotional response from the user from the very start of their experience.  
+
+   ![TheLeprechaun](//assets/README.md-images/README.md-TheLeprechaun.png)
    
 
   #### **Content on Homepage**
@@ -210,7 +212,7 @@ Alternatively, once you have found the project repository in Github, you can cli
      - CSS
      - JavaScript
 
-     ![Languages](assets/README.md-images/README.md-languages-used.png)
+![Languages](//assets/README.md-images/README.md-languages.png)
 
 ## **[Credits](#credits)**
 
