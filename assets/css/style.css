@@ -99,6 +99,7 @@ p {
 
 button#refresh p {
     color: white;
+    font-size: 1rem;
 }
 
 #sentence {

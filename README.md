@@ -56,7 +56,7 @@ The website consists of one page:
 
   - The landing page immediately engages the user with a large [hero image](#hero-image). The image is of a fun and scary leprechaun. This aims to set the user's expectations around the purpose of this website and to illicit a positive emotional response from the user from the very start of their experience.  
 
-   ![TheLeprechaun](//assets/README.md-images/README.md-TheLeprechaun.png)
+   ![TheLeprechaun](assets/README.md-images/README.md-TheLeprechaun.png)
    
 
   #### **Content on Homepage**
@@ -68,11 +68,11 @@ The website consists of one page:
 
   - When the user clicks on the last button on the Homepage ('Sure why not Hex that eejit again, don't they deserve it?!'), this feature aims to enhance their experience and meet their expectations of going bak to the top of the page to begin the process again to find out a diferrent result. This feature also acts as a 'Back to top' button for the user.    
 
-    ![Back-to-top-button]()
+    ![Back-to-top-button](assets/README.md-images/README.md-back-to-top.png)
 
 ### **[Footer](#footer)** 
 
-  ![Footer]() 
+  ![Footer](assets/README.md-images/README.md-footer.png) 
 
   - The footer section includes links to the relevant social media sites which would connect users with social media for The Irish Hexanator. The links open to a new tab to allow easy navigation for the user. The initial code for the social media icons for the footer was based on those found in the Code Institute's [Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) and then altered to match and be consistent with the color scheme of this project.    
 
@@ -212,7 +212,7 @@ Alternatively, once you have found the project repository in Github, you can cli
      - CSS
      - JavaScript
 
-![Languages](//assets/README.md-images/README.md-languages.png)
+![Languages](assets/README.md-images/README.md-languages.png)
 
 ## **[Credits](#credits)**
 
