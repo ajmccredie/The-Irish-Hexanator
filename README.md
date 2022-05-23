@@ -195,7 +195,7 @@ Alternatively, once you have found the project repository in Github, you can cli
 
 ## **[Unfixed Bugs](#unfixed-bugs)**
 
- 
+ - Although an alert works on clicking any of the buttons to remind the user they should first insert the name of their 'Nemesis' in the first input field, defining a function for this was chellenging. A number of video tutorials were found that almost helped solve the issue but these were all focused on inputs inside a form. 
     
 ## **[Technologies and Tools](#technologies-and-tools)**
      
