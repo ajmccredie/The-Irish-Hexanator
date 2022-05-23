@@ -173,7 +173,9 @@ Alternatively, once you have found the project repository in Github, you can cli
         ![Homepage]()
       
           
+ - **JavaSCript**
 
+    Use JSHint(see second video in PP2 module): https://jshint.com/ 
 
   - **Feature testing**
 
