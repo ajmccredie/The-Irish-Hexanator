@@ -174,7 +174,16 @@ Alternatively, once you have found the project repository in Github, you can cli
           
  - **JavaScript**
 
-    Use JSHint(see second video in PP2 module): https://jshint.com/ 
+   - No errors were found when passing through the official Jshint validator
+The following metrics were returned:
+
+     - There are 9 functions in this file.
+
+     - Function with the largest signature take 1 arguments, while the median is 1.
+
+     - Largest function has 8 statements in it, while the median is 2.
+
+     - The most complex function has a cyclomatic complexity value of 3 while the median is 1.
 
   - **Feature testing**
 
