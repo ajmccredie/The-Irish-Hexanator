@@ -63,7 +63,7 @@ The website consists of one page:
 
 ### **[Back to top button](#back-to-top-button)**
 
-  - When the user clicks on the last button on the Homepage ('Sure why not Hex that eejit again, don't they deserve it?!'), this feature aims to enhance their experience and meet their expectations of going bak to the top of the page to begin the process again to find out a diferrent result. This feature also acts as a 'Back to top' button for the user.    
+  - When the user clicks on the last button on the Homepage, this feature aims to enhance their experience and meet their expectations of not only bringing the user back to the top of the page, but also of refreshing the page and being able to begin the process again in order to get out a new 'Hex'.    
 
     ![Back-to-top-button](assets/README.md-images/README.md-back-to-top.png)
 
@@ -196,9 +196,7 @@ Alternatively, once you have found the project repository in Github, you can cli
 
 ## **[Unfixed Bugs](#unfixed-bugs)**
 
- - Although an alert works on clicking any of the buttons to remind the user they should first insert the name of their 'Nemesis' in the first input field, defining a function for this was chellenging. A number of video tutorials were found that almost helped solve the issue but these were all focused on inputs inside a form.
-
- - I tried adding a GIF image using CSS and a JavaScript function to make it appear only when the user clicks the button that generates the full sentence at the end. However this was ultimately left out because it complicated both the CSS and javaScript code.   
+ - I tried adding a GIF image using CSS and a JavaScript function to make it appear only when the user clicks the button that generates the full sentence at the end. However this was ultimately left out because it complicated both the CSS and JavaScript code.   
     
 ## **[Technologies and Tools](#technologies-and-tools)**
      
@@ -219,7 +217,7 @@ Alternatively, once you have found the project repository in Github, you can cli
 
 ## **[Credits](#credits)**
 
-As a starting point I began with a cocnept for a random word generator based on a book entilted [The Irish Insult Generator](https://shop.designist.ie/products/irishinsultgenerator). On finding out that an App produced by another party but with almost exactly the same name already existed called [Irish Insult Generator](https://steprimo.com/android/us/app/com.incrediblegeeks.irishinsultgenerator/Irish-Insult-Generator/), I developed the idea to maintain the random word aspect but to enhance this with the idea of 'putting a hex' on a firend or family member for fun and being able to post this to social media.   
+As a starting point for developing this project, I began with a concept for a random word generator based on a book entitled [The Irish Insult Generator](https://shop.designist.ie/products/irishinsultgenerator). When I did some research online, I found out that an App produced by another party but with almost exactly the same name already existed called [Irish Insult Generator](https://steprimo.com/android/us/app/com.incrediblegeeks.irishinsultgenerator/Irish-Insult-Generator/). I developed the idea to maintain the random word aspect but to enhance this with the idea of 'putting a hex' on a friend and/or family member for fun and allowing the user to post this to their preferred social media platform.   
 
 
 ### **[Code](#code)**
@@ -262,7 +260,7 @@ As a starting point I began with a cocnept for a random word generator based on 
 
 ## **[Acknowledgements](#acknowledgements)**
 
-    The following online resources were used for a range of supports such as getting correct syntax and learning more about functions:
+  The following online resources were used for a range of supports such as getting correct syntax and learning more about functions:
 
    - [w3schools](https://www.w3schools.com/)
 
