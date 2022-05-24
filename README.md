@@ -2,7 +2,7 @@
 
 # **The Irish Hexanator**
 
-For my second Portfolio Project submitted as part of the Code Institute's Diploma in full-stack software development course, I created a fun and engaging gan=me-like random word generator called 'The Irish Hexanator'.
+For my second Portfolio Project submitted as part of the Code Institute's Diploma in full-stack software development course, I created a fun and engaging game-like random word generator called 'The Irish Hexanator'. 
 
 ![Website on multiple screens](assets/README.md-images/README.md-screens.png)
 
@@ -13,24 +13,21 @@ For my second Portfolio Project submitted as part of the Code Institute's Diplom
 - This website was designed for Desktop users first and is responsive for users of smaller devices.  
 
 ## **Summary**
-  This interactive website provides users with a fun and easy way to 'cast a spell' on anyone they want. To 'put a Hex' or 'curse' on someone, the user generates a number of random phrases that can be combined to create a full sentence. The user can create as many different sentences or 'Hexes' as they like and as often as they want using as many names of friends or family as they desire.        
+  This interactive website provides users with a fun and easy way to 'cast a spell' on anyone they want. This spell is no ordinary magic, it is an evil and unique one with a specifically Irish dimension. To virtually 'put a Hex' or digital 'curse' on someone, the user generates a number of random phrases that can be combined to create a full sentence. The user can create as many different sentences or 'Hexes' as they like, as often as they want, and using as many names of friends or family as they desire.        
   
-  Unlike many other websites that provide users with a similar kind of random word generator, this project offers users a unique opportunity to create their own unique .   
+  Unlike many other websites that may provide users with a random word generator, this project offers users a unique opportunity to create their own personlised phrase that is intended to be shared on social media platforms for fun.   
 
-The site targets users in Dublin, Ireland who:
+The site targets a wide variety of users anywhere in the world who:
 
-* may already have a Cockapoo dog and need more information about taking care of their dog. 
+* enjoy interactive websites 
 
-* may be thinking about getting a new Cockapoo dog and require more information to make their decision. 
+* find Irish phrases ammusing. 
 
-Perhaps most importantly, what makes this website stand out from other websites that provide useful information about this dog breed and becoming a new owner; is how it targets users who: 
+Perhaps most importantly, what makes this website stand out from other websites that may also generate random phrases is how this fun application enhances the UX for users who: 
 
-* may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners. 
+* already familar with word games and generatorsm but would like to expereince something new that is made even more novel because of it's Irish context 
 
-* will find Cockapoo Club gives them a unique opportunity to join their own community and to network with other Cockapoo owners face-to-face.
-
-* will enjoy sharing photographs of their pets and training their dogs together in person. 
-    
+* appreciate the anticipation that builds with each button clicked to cinrementally build a full sentence that can be shared 
 
 
 ## **[Contents](#contents)**
@@ -271,7 +268,7 @@ As a starting point I began with a cocnept for a random word generator based on 
 
   - [Stack Overflow](https://stackoverflow.com/)
 
-  - A number of YouTube explainer vidoes were helpful:
+  - A number of YouTube explainer videos were helpful:
 
     - [Form Validation with JavaScript - Check for Multiple Empty Text Fields](https://www.youtube.com/watch?v=xvXtb7mwMd8)
     - [How to dynamically disable a form button using Javascript, HTML, and CSS](https://www.youtube.com/watch?v=ge0T4Fl6M3A)
@@ -285,5 +282,6 @@ As a starting point I began with a cocnept for a random word generator based on 
       - [Eventyret_mentor](https://code-institute-room.slack.com/team/U4MVA9YQP)
       - [DaveHorrocks_5P](https://code-institute-room.slack.com/team/U01R68NPPE2)
       - [Ed-ci](https://code-institute-room.slack.com/team/U02FJ8V7NA2)
+      - [Ger-ci](https://code-institute-room.slack.com/team/U030LJXSLQH)
 
 **[Click Here](#contents)** to return to Contents
