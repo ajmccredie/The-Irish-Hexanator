@@ -13,21 +13,21 @@ For my second Portfolio Project submitted as part of the Code Institute's Diplom
 - This website was designed for Desktop users first and is responsive for users of smaller devices.  
 
 ## **Summary**
-  This interactive website provides users with a fun and easy way to 'cast a spell' on anyone they want. This spell is no ordinary magic, it is an evil and unique one with a specifically Irish dimension. To virtually 'put a Hex' or digital 'curse' on someone, the user generates a number of random phrases that can be combined to create a full sentence. The user can create as many different sentences or 'Hexes' as they like, as often as they want, and using as many names of friends or family as they desire.        
+  This interactive website provides users with a fun and easy way to 'cast a spell' on anyone they want. This spell is no ordinary magic, it is an evil and unique one with a specifically Irish dimension. To virtually 'put a Hex' or digital 'curse' on someone, the user generates a number of random phrases that can be combined to create a full sentence rooted in Hiberno-English (the way English is spoken in Ireland). The user can create as many different sentences or 'Hexes' as they like, as often as they want, and using as many names of friends or family as they desire.        
   
-  Unlike many other websites that may provide users with a random word generator, this project offers users a unique opportunity to create their own personlised phrase that is intended to be shared on social media platforms for fun.   
+  Unlike many other websites that may provide users with a random word generator, this project offers users a unique opportunity to create their own personalised phrase that is intended to be shared on social media platforms for fun.   
 
 The site targets a wide variety of users anywhere in the world who:
 
 * enjoy interactive websites 
 
-* find Irish phrases ammusing. 
+* find Hiberno-English phrases amusing. 
 
 Perhaps most importantly, what makes this website stand out from other websites that may also generate random phrases is how this fun application enhances the UX for users who: 
 
-* already familar with word games and generatorsm but would like to expereince something new that is made even more novel because of it's Irish context 
+* already familiar with word games and generators, but would like to experience something new that is made even more novel because of its Irish context 
 
-* appreciate the anticipation that builds with each button clicked to cinrementally build a full sentence that can be shared 
+* appreciate the anticipation that builds with each button clicked to incrementally build a full sentence that can be shared 
 
 
 ## **[Contents](#contents)**
@@ -58,7 +58,7 @@ The website consists of one page with multiple sections:
 
   #### **Content on Homepage**
 
-  - The body element is divided into a number of sections with instructions fo the user to carry out step-by-step to incrementally build a full sentence by inputting a name then clicking on the 'curse' buttons. The purpose of multiple steps is to (a) differentiate this project from other simpler random word generators and (b) build the user's anticipation of seeing the final product at the end after the four easy steps of clicking or 'cursing' three times and then clikcing one more time to see the entire perosanilsed 'Hex'. 
+  - The body element is divided into a number of sections with instructions for the user to carry out step-by-step to incrementally build a full sentence by inputting a name then clicking on the 'curse' buttons. The purpose of multiple steps is to (a) differentiate this project from other simpler random word generators and (b) build the user's anticipation of seeing the final product at the end after the four easy steps of clicking or 'cursing' three times and then clicking one more time to see the entire personalised 'Hex'. 
     
 
 ### **[Back to top button](#back-to-top-button)**
@@ -123,15 +123,15 @@ Alternatively, once you have found the project repository in Github, you can cli
 
 - Ideas for future features include: 
 
-  - A way for users to add and play with their own curses to prodice unique personalised 'Hexes'. 
+  - A way for users to add and play with their own curses to produce unique personalised 'Hexes'. 
 
-  - More images and videos that are relevant could be added to enhanve UX 
+  - More images and videos that are relevant could be added to enhance UX 
 
   - A commercial page with branded merchandise with personalised 'Hexes' printed on them, such as T-Shirts, hats, mugs and other items generally found in a giftshop.  
 
-  - A live social media platform feed where othere user's 'Hexes' can share and compare ideas for curses with images in real-time with each other. 
+  - A live social media platform feed where other user's 'Hexes' can share and compare ideas for curses with images in real-time with each other. 
 
-  - An educational feature exploring Irish folklore, myths and legends with information about the Irish language and culture surrounding superstitions and the historical origins of curses/hexes. 
+  - An educational feature exploring Irish folklore, myths and legends with information about the Irish language and Hiberno-English,a s well as Irish history and culture surrounding superstitions and the historical origins of curses/hexes. 
 
 
 ## **[Testing](#testing)**
@@ -159,12 +159,12 @@ Alternatively, once you have found the project repository in Github, you can cli
      
       - Mobile
       
-        * [Homepage](#homepage)
+        ![Lighthouse-Mobile](assets/README.md-images/README.md-lighthouse-mobile.png)
 
             
       - Desktop 
 
-        * [Homepage](#homepage)
+        ![Lighthouse-Desktop](assets/README.md-images/README.md-lighthouse-desktop.png)
               
           
  - **JavaScript**
@@ -174,7 +174,7 @@ The following metrics were returned:
 
      - There are 9 functions in this file.
 
-     - Function with the largest signature take 1 arguments, while the median is 1.
+     - Function with the largest signature take 1 argument, while the median is 1.
 
      - Largest function has 8 statements in it, while the median is 2.
 
@@ -189,18 +189,18 @@ The following metrics were returned:
 
     ## **[Users experience](#users-experience)**
 
-      The target audience was kept as broad as posisble. Challenges and factors thqt had to be kept in mind when developing this project while placing UX at the cntre included: 
+      The target audience was kept as broad as possible. Challenges and factors that had to be kept in mind when developing this project while placing UX at the centre included: 
       
       - Users' varied levels of digital literacy
       - their familiarity with using games online
       - the general diversity of target users' age range and social backgrounds
       
-      I felt I needed to ensure that anyone would be able to navigate and enjoy the website. Keeping it as simple as possible for the user was a main priority. Also, eliciting a positive emotional response from users was central to the success of the website and to achievng the aim of creating and developing a website that would be experienced differnetly and stood out from other kinds of pre-exisiting random word generators.   
+      I felt I needed to ensure that anyone would be able to navigate and enjoy the website. Keeping it as simple as possible for the user was a main priority. Also, eliciting a positive emotional response from users was central to the success of the website and to acheivng the aim of creating and developing a website that would be experienced differently and stood out from other kinds of pre-existing random word generators.   
 
 
 ## **[Unfixed Bugs](#unfixed-bugs)**
 
- - I tried adding a GIF image using CSS and a JavaScript function to make it appear only when the user clicks the button that generates the full sentence at the end. However this was ultimately left out because it complicated both the CSS and JavaScript code.   
+ - I tried adding a GIF image using CSS and a JavaScript function to make it appear only when the user clicks the button that generates the full sentence at the end. However, this was ultimately left out because it complicated both the CSS and JavaScript code.   
     
 ## **[Technologies and Tools](#technologies-and-tools)**
      
@@ -259,7 +259,7 @@ As a starting point for developing this project, I began with a concept for a ra
    
  - **[Images](#used-images)**
 
-    - The only image used was dowloaded for free from  [Geeks of Doom](https://geeksofdoom.com/2012/03/20/wwe-films-and-lionsgate-are-teaming-up-to-reboot-leprechaun-franchise)    
+    The only image used was downloaded for free from  [Geeks of Doom](https://geeksofdoom.com/2012/03/20/wwe-films-and-lionsgate-are-teaming-up-to-reboot-leprechaun-franchise)    
 
 ## **[Acknowledgements](#acknowledgements)**
 
@@ -269,7 +269,7 @@ As a starting point for developing this project, I began with a concept for a ra
 
   - [Stack Overflow](https://stackoverflow.com/)
 
-  - A number of YouTube explainer videos were helpful:
+  - A number of YouTube explainer videos were really helpful:
 
     - [Form Validation with JavaScript - Check for Multiple Empty Text Fields](https://www.youtube.com/watch?v=xvXtb7mwMd8)
     - [How to dynamically disable a form button using Javascript, HTML, and CSS](https://www.youtube.com/watch?v=ge0T4Fl6M3A)
