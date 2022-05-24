@@ -36,6 +36,19 @@ input {
 	font-size: 2rem;
 }
 
+b {
+    font-size: 2rem;
+    font-style: italic;
+    color:rgb(22, 219, 22)
+    margin: 20px auto;
+    text-align: center;
+}
+
+div#refresh b {
+    color: white;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px orange;
+}
+
 p {
 	font-size: 2rem;
 	font-style: italic;
@@ -55,6 +68,10 @@ p {
 	margin-right: auto;
 	width: fit-content;
 	background-color: darkgrey;
+}
+
+a {
+    color: green;
 }
 
 .output {

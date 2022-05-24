@@ -12,9 +12,11 @@
          <h1 aria-label="Welcome to the Irish Hexanator!">
             Welcome to the Irish Hexanator!
          </h1>
+         <div>
          <p aria-label="Put an Irish Hex on your Nemesis now!">
             Put an Irish Hex on your Nemesis now!
          </p>
+         </div>
          <div
             id="guide"
             aria-label="image of scary leprechaun casting a magic spell"
@@ -56,9 +58,9 @@
             </button>
          </div>
          <div>
-            <output class="output" id="firstOutput">
-               <p id="firstResult"></p>
-            </output>
+           <output class="output">
+              <b id="firstResult"></b>
+           </output>
          </div>
       </section>
       <section class="sections">
@@ -77,7 +79,7 @@
          </div>
          <div>
             <output class="output" id="secondOutput">
-               <p id="secondResult"></p>
+               <b id="secondResult"></b>
             </output>
          </div>
       </section>
@@ -97,7 +99,7 @@
          </div>
          <div>
             <output class="output" id="thirdOutput">
-               <p id="thirdResult"></p>
+               <b id="thirdResult"></b>
             </output>
          </div>
       </section>
@@ -105,23 +107,19 @@
          <div>
             <div>
                <button id="finalButton"  class="disabled" aria-label="Cast your Hex">
-                  <p id="fullPhrase">Step 5: Click Here - "Your Hex is Ready to be Cast"</p>
+                  <b id="fullPhrase">Step 5: Click Here - "Your Hex is Ready to be Cast"</b>
                </button>
             </div>
             <output class="output">
-               <p id="finalResult"></p>
+               <b id="finalResult"></b>
             </output>
          </div>
-         <div -d="genGIF"></div>
          <div>
             <a href="#top">
-               <button
-                  id="refresh"
-                  aria-label="Back to the Top and create a new Hex">
-                  <p>Click Here to Go Again</p>
-                  <p>Sure why not Hex that eejit again, don't they deserve it?!</p>
-               </button>
-            </a>
+              <div id="refresh" aria-label="Back to the Top and create a new Hex">
+                <b>Click Here to Go Again! Sure why not Hex that eejit again, don't they deserve it?!</b>
+              </div> 
+            </a> 
          </div>
       </section>
       <footer>

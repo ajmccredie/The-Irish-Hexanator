@@ -174,7 +174,7 @@ Alternatively, once you have found the project repository in Github, you can cli
           
  - **JavaScript**
 
-   - No errors were found when passing through the official Jshint validator
+   - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
 The following metrics were returned:
 
      - There are 9 functions in this file.
@@ -187,10 +187,10 @@ The following metrics were returned:
 
   - **Feature testing**
 
-    Testing all interactive features involved manually clicking on every link on each page.
+    Testing all interactive features involved manually clicking on every link and inputting text to the input element.
 
     - All social media links in footer bring the user to the corresponding social media platform for them to log in. 
-    - the input field is interactive and adds the inputted text to the final full sentence or 'Hex'.   
+    - the input field is interactive and adds the inputted text to the final full-sentence or completed 'Hex'.   
 
     ## **[Users experience](#users-experience)**
 
