@@ -8,14 +8,50 @@ const thirdPhrase = document.getElementById('thirdResult');
 const input = document.getElementById('name');
 */
 
-const button = document.getElementById('firstButton') 
-button.addEventListener('click', (e) => {
+const buttonOne = document.getElementById('firstButton') 
+buttonOne.addEventListener('click', (e) => {
     console.log('This is the event target:', e.target)
 
     if (checkForBlank()) {
-        console.log('checked for blank and found text')
-    }
+        /*console.log('checked for blank and found text')*/
 
+    }
+    else gentextOne()
+});
+
+
+const buttonTwo = document.getElementById('secondButton') 
+buttonTwo.addEventListener('click', (e) => {
+    console.log('This is the event target:', e.target)
+
+    if (checkForBlank()) {
+        /*console.log('checked for blank and found text')*/
+
+        
+    }
+    else gentextTwo()
+});
+
+const buttonThree = document.getElementById('thirdButton') 
+buttonThree.addEventListener('click', (e) => {
+    console.log('This is the event target:', e.target)
+
+    if (checkForBlank()) {
+        /*console.log('checked for blank and found text')*/
+   
+    }
+    else gentextThree()
+});
+
+const buttonFinal = document.getElementById('finalButton') 
+buttonFinal.addEventListener('click', (e) => {
+    console.log('This is the event target:', e.target)
+
+    if (checkForBlank()) {
+        /*console.log('checked for blank and found text')*/
+      
+    }
+    else genHex()
 });
 
 
@@ -24,12 +60,14 @@ function checkForBlank() {
     if (document.getElementById("name").value !== '') {
     // alert("please enter your Nemesis' name")
         console.log('not blank')
+        return false
+    } 
+    else {
+        //console.log('blank')
+        console.log(alert("please enter your Nemesis' name"));
         return true
-    } else {
-        console.log('blank')
     }
 };
-
 
 
 /*
@@ -53,9 +91,6 @@ button.addEventListener('click', (e) => {
     return false;
     }};
 */
-
-
-
 
 
     /*if (checkForBlank) === true; {

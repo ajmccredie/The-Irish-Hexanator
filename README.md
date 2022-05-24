@@ -6,16 +6,16 @@ For my second Portfolio Project submitted as part of the Code Institute's Diplom
 
 ![Website on multiple screens](assets/README.md-images/README.md-screens.png)
 
-- **[Click Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html)** to see the deployed website. 
+- **[Click Here]()** to see the deployed website. 
 
-- To view the repository on Github **[Click Here](https://github.com/SamOBrienOlinger/Cockapoo-Club)**.
+- To view the repository on Github **[Click Here](https://github.com/SamOBrienOlinger/The-Irish-Hexanator)**.
 
 - This website was designed for Desktop users first and is responsive for users of smaller devices.  
 
 ## **Summary**
-  This website provides users with a starting point for all kinds of information about owning, training and taking care of a breed of dog called Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds. 
+  This interactive website provides users with a fun and easy way to 'cast a spell' on anyone they want. To 'put a Hex' or 'curse' on someone, the user generates a number of random phrases that can be combined to create a full sentence. The user can create as many different sentences or 'Hexes' as they like and as often as they want using as many names of friends or family as they desire.        
   
-  Unlike many other websites that provide similar information this project offers users a unique opportunity to create and participate in their own community of likeminded pet owners at a fictional physical clubhouse and training centre in person in Dublin, Ireland.   
+  Unlike many other websites that provide users with a similar kind of random word generator, this project offers users a unique opportunity to create their own unique .   
 
 The site targets users in Dublin, Ireland who:
 
@@ -284,5 +284,6 @@ As a starting point I began with a cocnept for a random word generator based on 
       - [DavidK_5P](https://code-institute-room.slack.com/team/U02R7JKTQ6S)
       - [Eventyret_mentor](https://code-institute-room.slack.com/team/U4MVA9YQP)
       - [DaveHorrocks_5P](https://code-institute-room.slack.com/team/U01R68NPPE2)
+      - [Ed-ci](https://code-institute-room.slack.com/team/U02FJ8V7NA2)
 
 **[Click Here](#contents)** to return to Contents
