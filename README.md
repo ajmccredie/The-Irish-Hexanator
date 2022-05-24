@@ -257,7 +257,7 @@ As a starting point for developing this project, I began with a concept for a ra
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
      
    
- - **[Images](#used-images)**
+ - **Images**
 
     The only image used was downloaded for free from  [Geeks of Doom](https://geeksofdoom.com/2012/03/20/wwe-films-and-lionsgate-are-teaming-up-to-reboot-leprechaun-franchise)    
 
