@@ -4,9 +4,9 @@
 
 For my second Portfolio Project submitted as part of the Code Institute's Diploma in full-stack software development course, I created a fun and engaging game-like random word generator called 'The Irish Hexanator'. 
 
-![Website on multiple screens](assets/README.md-images/README.md-screens.png)
+![Website on multiple screens](assets/README.md-images/README.md-multiple-screens.png)
 
-- **[Click Here]()** to see the deployed website. 
+- **[Click Here](https://samobrienolinger.github.io/The-Irish-Hexanator/)** to see the deployed website. 
 
 - To view the repository on Github **[Click Here](https://github.com/SamOBrienOlinger/The-Irish-Hexanator)**.
 
@@ -87,7 +87,7 @@ The website consists of one page with multiple sections:
   - From the source section drop-down menu, select the Main Branch
   - Once the Main Branch has been selected, click on the save button. The page will be automatically refreshed, a link proved, and a detailed ribbon displayed to indicate the successful deployment. 
 
-  - The live link can be found [Here]()
+  - The live link can be found [Here](https://samobrienolinger.github.io/The-Irish-Hexanator/)
 
  ### **Deploy locally and contribute to the Project** 
   
@@ -116,7 +116,7 @@ To work on the project locally:
 
 Alternatively, once you have found the project repository in Github, you can click on the Code button and in the dropdown menu, click on the Download Zip button. 
 
-  ![Cloning the project](assets/README.md-images/README.md-cloning-local-deployment.png)
+  ![Cloning the project](assets/README.md-images/README.md-deployment.png)
 
 
 ## **[Features Left to Implement](#features-left-to-implement)**
@@ -140,18 +140,17 @@ Alternatively, once you have found the project repository in Github, you can cli
 
    - **HTML**
 
-     I began testing the HTML code early on in the project, to methodically ensure that all HTML code was being built on solid foundations across all pages. Initially, I had some basic mistakes about having more than one H1 heading and errors due to opening tags not having corresponding closing tags. With feedback from fellow students via Slack and by using the HTML Validator I have been able to fix these HTML issues.  
+     I began testing the HTML code early on in the project, to methodically ensure that all HTML code was being built on solid foundations. Initially, I had some basic mistakes about having paragraph elements as children of an anchor element and errors due to opening tags not having corresponding closing tags. Although there are six warnings, with feedback from my mentor and fellow students via Slack and by using the HTML Validator I have been able to fix all errors in the HTML.  
 
-      * [Homepage](#homepage)
 
-        ![homepage](assets/README.md-images/README.md-homepage.png)
+        ![HTML Validator](assets/README.md-images/README.md-html-validator.png)
 
 
    - **CSS**
     
-      Testing the CSS code was also carried out with each developmental stage of the project. Most often the errors that arose were with syntax for media queries and stray curly braces.  
+      Testing the CSS code was also carried out with each developmental stage of the project. Most often the errors that arose were with syntax for properties and stray curly braces.  
 
-        ![CSS Validator]()
+        ![CSS Validator](assets/README.md-images/README.md-css-validator.png)
     
 
    - **Lighthouse** 
