@@ -43,7 +43,7 @@ Perhaps most importantly, what makes this website stand out from other websites 
 
 ## **[Features](#features)**
 
-The website consists of one page:
+The website consists of one page with multiple sections:
 
 * [Homepage](#homepage)
 * [Back to top button](#back-to-top-button)
@@ -51,14 +51,14 @@ The website consists of one page:
 
 ### **[Homepage](#homepage)** 
 
-  - The landing page immediately engages the user with a large [hero image](#hero-image). The image is of a fun and scary leprechaun. This aims to set the user's expectations around the purpose of this website and to illicit a positive emotional response from the user from the very start of their experience.  
+  - The landing page immediately engages the user with a large hero image. The image is of a fun and scary leprechaun. This aims to set the user's expectations around the purpose of this website and to illicit a positive emotional response from the user from the very start of their experience.  
 
    ![TheLeprechaun](assets/README.md-images/README.md-TheLeprechaun.png)
    
 
   #### **Content on Homepage**
 
-  - The body element is divided into a number of sections with instructions fo the user to carry out step-by-step to incrementally build a full sentence. The purpose of multiple steps is to (a) differentiate this project from other simpler random word generators and (b) build the user's anticipation of seeing the final product at the end after the four easy steps of clicking or 'cursing' three times and then clikcing one more time to see the entire perosanilsed 'Hex'. 
+  - The body element is divided into a number of sections with instructions fo the user to carry out step-by-step to incrementally build a full sentence by inputting a name then clicking on the 'curse' buttons. The purpose of multiple steps is to (a) differentiate this project from other simpler random word generators and (b) build the user's anticipation of seeing the final product at the end after the four easy steps of clicking or 'cursing' three times and then clikcing one more time to see the entire perosanilsed 'Hex'. 
     
 
 ### **[Back to top button](#back-to-top-button)**
@@ -144,7 +144,7 @@ Alternatively, once you have found the project repository in Github, you can cli
 
       * [Homepage](#homepage)
 
-        ![homepage](assets/README.md-images/README.md-index-html-valid.png)
+        ![homepage](assets/README.md-images/README.md-homepage.png)
 
 
    - **CSS**
@@ -200,8 +200,7 @@ Alternatively, once you have found the project repository in Github, you can cli
     
 ## **[Technologies and Tools](#technologies-and-tools)**
      
-- [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improving the lighthouse scores for each page.
-- [nssport.com](https://nsspot.herokuapp.com/imagetowebp/) was used to convert images from .png to .webp for improving the lighthouse scores for each page.
+- [nssport.com](https://nsspot.herokuapp.com/imagetowebp/) was used to convert images from .png to .webp for improving the lighthouse.
 - Gitpod
 - Github
 - Gitbash

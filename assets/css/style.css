@@ -3,6 +3,7 @@
 * {
 	box-sizing: border-box;
     font-family: Irish Grover;
+    text-align: center;
 }
 
 h1 {
@@ -53,9 +54,6 @@ p {
     text-align: center;
 }
 
-.button {
-    margin: 2rem;
-}
 
 #refresh {
 	margin-left: auto;
@@ -135,4 +133,9 @@ button#refresh p {
 .fab, .far {
     font-weight: 400;
     color: rgb(22, 219, 22);
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
 }

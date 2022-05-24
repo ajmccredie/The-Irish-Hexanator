@@ -1,173 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>An Irish Hex For Your Nemesis</title>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
-  <section>
-    <a id="top"></a>
-    
-    <h1 aria-label="Welcome to the Irish Hexanator!">Welcome to the Irish Hexanator!</h1>
-    
-    <p aria-label="Put an Irish Hex on your Nemesis now!">Put an Irish Hex on your Nemesis now!</p> 
+    <section>
+      <a id="top"></a>
 
-    <div id="guide" aria-label="image of scary leprechaun casting a magic spell">
-    </div>
+      <h1 aria-label="Welcome to the Irish Hexanator!">
+        Welcome to the Irish Hexanator!
+      </h1>
 
-  <div>
-    <p aria-label="Make three "curses" to put a Hex on your favuourite Nemesis!">
-      Make three "curses" to put a Hex on your favuourite Nemesis!   
-    </p>
-  </div> 
-  </section>
+      <p aria-label="Put an Irish Hex on your Nemesis now!">
+        Put an Irish Hex on your Nemesis now!
+      </p>
 
+      <div
+        id="guide"
+        aria-label="image of scary leprechaun casting a magic spell"
+      ></div>
 
-  <section class="sections">
-    <div id="error"> 
+      <div>
+        <p
+          aria-label="Make three 'curses' to put a Hex on your favorite Nemesis!"
+        >
+          Make three "curses" to put a Hex on your favorite Nemesis!
+        </p>
+      </div>
+    </section>
 
-      <h2 aria-label="Insert your nemesis' name below">Insert your nemesis' name below</h2>
+    <section class="sections">
+      <div id="error">
+        <h2 aria-label="Insert your nemesis' name below">
+          Step 1: insert your nemesis' name below
+        </h2>
 
-      <input id="name" name="name" type="text" placeholder="Who is your nemesis?" aria-label="Insert your nemesis' name below"> 
+        <input
+          id="name"
+          name="name"
+          type="text"
+          placeholder="Who is your nemesis?"
+          aria-label="Insert your nemesis' name below"
+        />
+      </div>
+    </section>
 
-    </div>
+    <section class="sections">
+      <div>
+        <h2>Step 2: Click Here to start your Hex!</h2>
+      </div>
 
-  
-  <section class="sections">
-    <div> 
-      <h2>Start your Hex!</h2>
-    </div>
-
-    <div>
-      
-<!change all onclicks to eventListners?>    
-
-        <button class="button" id="firstButton" aria-label="Start your Hex!">
+      <div>
+        <button
+          class="button curse-button disabled"
+          data-index="1"
+          id="firstButton"
+          aria-label="Start your Hex!"
+        >
           Curse!
-      </button>
-      
-      
-    </div>
+        </button>
+      </div>
 
-    <div>
-      <output class="output" id="firstOutput">  
-        <p id="firstResult"></p>
-      </output>
-    </div>
-    
-  </section>
+      <div>
+        <output class="output" id="firstOutput">
+          <p id="firstResult"></p>
+        </output>
+      </div>
+    </section>
 
-  <section class="sections">
-    <div>
-      <h2>The middle of your Hex!</h2>
-    </div>
+    <section class="sections">
+      <div>
+        <h2>Step 3: Click Here to get the middle of your Hex!</h2>
+      </div>
 
-    <div>
-      <button class="button" id="secondButton" aria-label="The middle of your Hex!">
-        Curse!
-      </button>
-    </div>
+      <div>
+        <button
+          class="button curse-button disabled"
+          data-index="2"
+          id="secondButton"
+          aria-label="The middle of your Hex!"
+        >
+          Curse!
+        </button>
+      </div>
 
-    <div>
-      <output class="output" id="secondOutput"> 
-        <p id="secondResult"></p>
-      </output>
-    </div>
+      <div>
+        <output class="output" id="secondOutput">
+          <p id="secondResult"></p>
+        </output>
+      </div>
+    </section>
 
-  </section>
+    <section class="sections">
+      <div>
+        <h2>Step 4: Click Here to get the last part of your Hex</h2>
+      </div>
 
-  <section class="sections">
-    <div>
-      <h2>The last part of your Hex</h2>
-    </div>
+      <div>
+        <button
+          class="button curse-button disabled"
+          data-index="3"
+          id="thirdButton"
+          aria-label="The last part of your Hex"
+        >
+          Curse!
+        </button>
+      </div>
 
-    <div>
-      <button class="button" id="thirdButton" aria-label="The last part of your Hex">
-        Curse!
-      </button>
-    </div>
+      <div>
+        <output class="output" id="thirdOutput">
+          <p id="thirdResult"></p>
+        </output>
+      </div>
+    </section>
 
-    <div>
-      <output class="output" id="thirdOutput"> 
-        <p id="thirdResult"></p>
-      </output>
-    </div>   
-  
-  </section>
+    <section>
+      <div>
+        <div>
+          <button id="finalButton"  class="disabled" aria-label="Cast your Hex">
+            <p id="fullPhrase">Step 5: Click Here - "Your Hex is Ready to be Cast"</p>
+          </button>
+        </div>
 
-  <section>
+        <output class="output">
+          <p id="finalResult"></p>
+        </output>
+      </div>
 
-    <div>
-    
-    <div>
-      <button id="finalButton" aria-label="Cast your Hex">
-        
-        <p id="fullPhrase">
-        "Your Hex is ready to be cast"
-        </p>
-      
-      </button>
-    </div>
+      <div -d="genGIF"></div>
 
-      <output class="output">
-        <p id="finalResult"></p>
-      </output>
+      <div>
+        <a href="#top">
+          <button
+            id="refresh"
+            aria-label="Back to the Top and create a new Hex">
+            <p>Back to the Top</p>
+            <p>Sure why not Hex that eejit again, don't they deserve it?!</p>
+          </button>
+        </a>
+      </div>
+    </section>
 
-    </div>
-  
-    <div -d="genGIF"></div>
+    <footer>
+      <h2>Social Media Shenanigans</h2>
+      <p aria-label="Post your Hex and Tag your favourite Nemesis!">
+        Just for the craic, Post your Hex and Tag your favourite Nemesis!
+      </p>
 
-    <div>
-      <a href="#top">
-     
-      <button id="refresh" aria-label="Back to the Top and create a new Hex">
-        <p>
-          Back to the Top
-        </p>
-        <p>
-          Sure why not Hex that eejit again, don't they deserve it?!
-        </p>
-      </button>
+      <ul class="social-networks">
+        <li>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://youtube.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our YouTube page"
+            ><i class="fab fa-youtube-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+      <script
+        src="https://kit.fontawesome.com/c7dbda0798.js"
+        crossorigin="anonymous"
+      ></script>
+    </footer>
 
-      </a>
-    </div>
-  
-  </section>
-  <script src="assets/js/script.js"></script>
-
-</body>
-
-  <footer>
-
-    <h2>
-      Social Media Shenanigans
-    </h2>
-    <p aria-label="Post your Hex and Tag your favourite Nemesis!">
-      Just for the craic, Post your Hex and Tag your favourite Nemesis!
-    </p>
-
-    <ul class="social-networks">
-       <li>
-          <a href="https://facebook.com" target="_blank" rel="noopener"
-             aria-label="Visit our Facebook page"><i class="fab fa-facebook"></i></a>
-       </li>
-       <li>
-          <a href="https://twitter.com" target="_blank" rel="noopener"
-             aria-label="Visit our Twitter page"><i class="fab fa-twitter-square"></i></a>
-       </li>
-       <li>
-          <a href="https://youtube.com" target="_blank" rel="noopener"
-             aria-label="Visit our YouTube page"><i class="fab fa-youtube-square"></i></a>
-       </li>
-       <li>
-          <a href="https://instagram.com" target="_blank" rel="noopener"
-             aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i></a>
-       </li>
-    </ul>
-    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
- </footer>
-
-
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
