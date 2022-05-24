@@ -172,7 +172,7 @@ Alternatively, once you have found the project repository in Github, you can cli
         ![Homepage]()
       
           
- - **JavaSCript**
+ - **JavaScript**
 
     Use JSHint(see second video in PP2 module): https://jshint.com/ 
 
@@ -273,7 +273,9 @@ As a starting point for developing this project, I began with a concept for a ra
     - [Event Listeners - Javascript - Tutorial 14](https://www.youtube.com/watch?v=jrI0WFCCLWY)
 
 
-   - My mentor, Sandeep Aggarwal, as well as a number of Code Institute Tutors and students were very supportive via slack and the Student Support Chat. The following tutors and students helped guide me and to tease out a range of issues I faced developing the project: 
+   - My mentor, [Sandeep Aggarwal](https://code-institute-room.slack.com/archives/D02TFLJRZTR), was a great support and he provided key feedback which helped deliver this project.  
+   
+   - A number of Code Institute Tutors and students were very supportive via slack and the Student Support Live Chat. The following tutors and students helped guide me and to tease out a range of issues I faced developing the project: 
      
       - [DavidK_5P](https://code-institute-room.slack.com/team/U02R7JKTQ6S)
       - [Eventyret_mentor](https://code-institute-room.slack.com/team/U4MVA9YQP)

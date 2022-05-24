@@ -2,56 +2,51 @@
 
 * {
 	box-sizing: border-box;
-    font-family: Irish Grover;
-    text-align: center;
+	font-family: Irish Grover;
+	text-align: center;
 }
 
 h1 {
-    font-size: 3rem;
-    font-style: italic;
-    color: rgb(22, 219, 22); 
-    margin: 20px auto;
-    text-align: center;
-    font-family: Irish Grover;
+	font-size: 3rem;
+	font-style: italic;
+	color: rgb(22, 219, 22);
+	margin: 20px auto;
+	text-align: center;
+	font-family: Irish Grover;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h2 {
-    color: rgb(22, 219, 22);
+	color: rgb(22, 219, 22);
 }
 
 #guide {
-    height: 50vh;
+	height: 50vh;
 	width: 100%;
-    background-image: url(..//css/Images/Leprechaun.webp);
-    background-repeat: no-repeat;
-    margin-left: auto;
+	background-image: url(..//css/Images/Leprechaun.webp);
+	background-repeat: no-repeat;
+	margin-left: auto;
 	margin-right: auto;
-    background-position: center;
-    /*animation-name: hero-zoom;
-    animation-duration: 5s;
-	animation-fill-mode: forwards;*/
+	background-position: center;
 }
 
-
-/*@keyframes hero-zoom {
-	from {
-		transform: scale(1)
-	}
-	to {
-		transform: scale(2)
-	}*/
+input {
+	height: auto;
+	width: auto;
+	font-size: 2rem;
+}
 
 p {
-    font-size: 2rem;
-    font-style: italic;
-    color: orange; 
-    margin: 20px auto;
-    text-align: center;
+	font-size: 2rem;
+	font-style: italic;
+	color: orange;
+	margin: 20px auto;
+	text-align: center;
 }
 
 .sections {
-    margin: 20px auto;
-    text-align: center;
+	margin: 20px auto;
+	text-align: center;
 }
 
 
@@ -59,61 +54,57 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	width: fit-content;
-    background-color: darkgrey;
+	background-color: darkgrey;
 }
 
 .output {
-    margin: auto;
-    margin-top: 1rem;
-    padding: 1rem 2rem;
-    border-width: 2px;
-    /*border-style: solid;*/
+	margin: auto;
+	margin-top: 1rem;
+	padding: 1rem 2rem;
+	border-width: 2px;
+	/*border-style: solid;*/
 }
 
 #firstButton {
-    font-size: 2rem;
-    font-style: italic;
-    color: green;
+	font-size: 2rem;
+	font-style: italic;
+	color: green;
 }
 
 #secondButton {
-    font-size: 2rem;
-    font-style: italic;
-    color: white;
-    background-color: darkgrey;
+	font-size: 2rem;
+	font-style: italic;
+	color: white;
+	background-color: darkgrey;
 }
 
 #thirdButton {
-    font-size: 2rem;
-    font-style: italic;
-    color: orange;
+	font-size: 2rem;
+	font-style: italic;
+	color: orange;
 }
 
 #fullPhrase {
-    color: chartreuse;
-    font-size: 3rem;
-    font-style:normal;
+	color: chartreuse;
+	font-size: 3rem;
+	font-style: normal;
+}
+
+button {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 button#refresh p {
-    color: white;
-    font-size: 1rem;
+	color: white;
+	font-size: 1.5rem;
 }
 
 #sentence {
-    color: green   
+	color: green
 }
 
-#genGIF {
-    /*background-image: url(//assets/css/Images/TLGIF.gif);*/
-    height: 50vh;
-    width: auto;
-    background-image: url(https://c.tenor.com/fVwnvEsBvtEAAAAC/leprechaun-horror.gif);
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-    background-position: center;
-    padding: 10px;
+footer {
+	margin-top: 3rem;
 }
 
 .social-networks {
@@ -121,7 +112,8 @@ button#refresh p {
 	list-style-type: none;
 	margin: 20px auto;
 	padding: 0;
-	text-align: center
+	text-align: center;
+	margin-top: 1.5rem;
 }
 
 .social-networks li {
@@ -130,12 +122,13 @@ button#refresh p {
 	font-size: 4.5vmin;
 }
 
-.fab, .far {
-    font-weight: 400;
-    color: rgb(22, 219, 22);
+.fab,
+.far {
+	font-weight: 400;
+	color: rgb(22, 219, 22);
 }
 
 .disabled {
-    opacity: 0.5;
-    pointer-events: none;
+	opacity: 0.5;
+	pointer-events: none;
 }
