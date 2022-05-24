@@ -69,6 +69,10 @@ function checkForBlank() {
     }
 };
 
+const refreshPage = document.getElementById('refresh');
+refreshPage.addEventListener('click', (e) => {
+    document.location.reload() 
+})
 
 /*
 const button = document.getElementsById('firstButton') 
