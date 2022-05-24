@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	font-family: 'Irish Grover';
 	text-align: center;
+	background-color: teal;
 }
 
 h1 {
@@ -86,6 +87,7 @@ a {
 	font-size: 2rem;
 	font-style: italic;
 	color: green;
+	background-color: darkorange;
 }
 
 #secondButton {
@@ -93,12 +95,17 @@ a {
 	font-style: italic;
 	color: white;
 	background-color: green;
+	background-color: limegreen;
 }
 
 #thirdButton {
 	font-size: 2rem;
 	font-style: italic;
 	color: orange;
+}
+
+#finalButton {
+	background-color: darkorange;
 }
 
 #fullPhrase {

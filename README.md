@@ -154,22 +154,18 @@ Alternatively, once you have found the project repository in Github, you can cli
     
 
    - **Lighthouse** 
-
-    Initially, I intended all of the images on the website, especially the Furry Fun Foto Gallery page, to be my own photography with family, my own dog and with friend's pets. However, coordinating this proved to be more time consuming and difficult than I originally envisaged, especially with health implications of socialising due to COVID. Instead, I have used a mix of my own photographs and images from open-source websites covered in the [Images](#used-images) section. 
-    
-    Below are the Lighthouse scores.    
+ 
+     Below are the Lighthouse scores.    
      
-    - Mobile
+      - Mobile
       
-      * [Homepage](#homepage)
+        * [Homepage](#homepage)
 
             
-    - Desktop 
+      - Desktop 
 
-      * [Homepage](#homepage)
-          
-        ![Homepage]()
-      
+        * [Homepage](#homepage)
+              
           
  - **JavaScript**
 
