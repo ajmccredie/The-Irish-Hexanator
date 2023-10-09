@@ -1,5 +1,3 @@
-#The Irish Hexanator
-
 # **The Irish Hexanator**
 
 For my second Portfolio Project submitted as part of the Code Institute's Diploma in full-stack software development course, I created a fun and engaging game-like random word generator called 'The Irish Hexanator'. 
