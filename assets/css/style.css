@@ -84,7 +84,7 @@ p {
 	text-align: center;
 }
 
-.sections {
+section {
 	margin: 20px auto;
 	text-align: center;
 }
@@ -93,6 +93,7 @@ p {
 #refresh {
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 2rem;
 	width: fit-content;
 	background-color: darkgrey;
 }
@@ -128,6 +129,7 @@ a {
 	font-size: 2rem;
 	font-style: italic;
 	color: orange;
+	background-color: white;
 }
 
 #finalButton {
