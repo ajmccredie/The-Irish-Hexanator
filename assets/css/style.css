@@ -7,14 +7,17 @@
 	background-color: black;
 }
 
+h1, h2, b, p, button, .steps, #fullPhrase {
+    color: whitesmoke; /* Light text for visibility */
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px green; /* Text shadow for more depth */
+}
+
 h1 {
-	font-size: 3rem;
-	font-style: italic;
-	color: rgb(22, 219, 22);
-	margin: 20px auto;
-	text-align: center;
-	font-family: 'Irish Grover';
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 3rem;
+    font-style: italic;
+    margin: 20px auto;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h2 {
@@ -183,7 +186,16 @@ footer {
 	color: rgb(22, 219, 22);
 }
 
-.disabled {
+/* .disabled {
 	opacity: 0.5;
 	pointer-events: none;
+} */
+
+.disabled {
+	opacity: 0; /* Start elements as invisible if they are going to fade in */
+	transition: opacity 0.5s; 
+}
+
+.hidden {
+	display: none;
 }
