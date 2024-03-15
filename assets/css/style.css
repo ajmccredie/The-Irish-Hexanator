@@ -5,66 +5,56 @@
 	font-family: 'Irish Grover';
 	text-align: center;
 	background-color: black;
-	color: whitesmoke;
 }
 
 h1 {
-	font-size: 3rem;
-	font-style: italic;
-	color: rgb(22, 219, 22);
-	margin: 20px auto;
-	text-align: center;
-	font-family: 'Irish Grover';
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 3rem;
+    font-style: italic;
+    color: rgb(22, 219, 22);
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Irish Grover';
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h2 {
-	color: rgb(22, 219, 22);
+    color: rgb(22, 219, 22);
 }
 
 #guide {
-	height: 50vh;
-	width: 100%;
-	background-image: url(..//css/Images/Leprechaun.webp);
-	background-repeat: no-repeat;
-	margin-left: auto;
-	margin-right: auto;
-	background-position: center;
-	animation-name: lephex-zoom;
+    height: 50vh;
+    width: 100%;
+    background-image: url(..//css/Images/angry\ lep.jpeg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    animation-name: lephex-zoom;
     animation-duration: 9s;
-	animation-fill-mode: forwards;
-	animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
 }
 
 @keyframes lephex-zoom {
-	from {
-		transform: scale(1)
-	}
-	to {
-		transform: scale(2)
-	}
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1); /* Back to the original size */
+    }
 }
 
-@keyframes lephex-zoom {
-	0% {
-	  transform: scale(1);
-	}
-	50% {
-	  transform: scale(1.2);
-	}
-	100% {
-	  transform: scale(1); /* Back to the original size */
-	}
-  }
-  
 .steps {
-	color: orange;
+    color: orange;
 }
 
 input {
-	height: auto;
-	width: auto;
-	font-size: 2rem;
+    height: auto;
+    width: auto;
+    font-size: 2rem;
 }
 
 b {
@@ -76,23 +66,22 @@ b {
 }
 
 div#refresh b {
-    /* color: whitesmoke; */
-	text-shadow: 1px 1px 1px #000, 3px 3px 5px orange;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px orange;
     color: orange;
 }
 
 p {
-	font-size: 2rem;
-	font-style: italic;
-	margin: 20px auto;
-	text-align: center;
-	text-shadow: 1px 1px 1px #000, 3px 3px 5px orange;
+    font-size: 2rem;
+    font-style: italic;
+    margin: 20px auto;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px orange;
     color: orange;
 }
 
 section {
-	margin: 20px auto;
-	text-align: center;
+    margin: 20px auto;
+    text-align: center;
 }
 
 a {
@@ -100,91 +89,133 @@ a {
 }
 
 #refresh {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 2rem;
-	width: fit-content;
-	background-color: darkgrey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: fit-content;
+    background-color: darkgrey;
 }
+
 .output {
-	margin: auto;
-	margin-top: 1rem;
-	padding: 1rem 2rem;
-	border-width: 2px;
-	/*border-style: solid;*/
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-width: 2px;
 }
 
 #firstButton {
-	font-size: 2rem;
-	font-style: italic;
-	color: green;
-	background-color: darkorange;
+    font-size: 2rem;
+    font-style: italic;
+    color: green;
+    background-color: darkorange;
 }
 
 #secondButton {
-	font-size: 2rem;
-	font-style: italic;
-	color: whitesmoke;
-	background-color: green;
-	background-color: limegreen;
+    font-size: 2rem;
+    font-style: italic;
+    color: whitesmoke;
+    background-color: green;
+    background-color: limegreen;
 }
 
 #thirdButton {
-	font-size: 2rem;
-	font-style: italic;
-	color: orange;
-	background-color: whitesmoke;
+    font-size: 2rem;
+    font-style: italic;
+    color: orange;
+    background-color: whitesmoke;
 }
 
 #finalButton {
-	background-color: darkorange;
+    background-color: darkorange;
 }
 
 #fullPhrase {
-	color: chartreuse;
-	font-size: 3rem;
-	font-style: normal;
+    color: chartreuse;
+    font-size: 3rem;
+    font-style: normal;
 }
 
 button {
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 button#refresh p {
-	color: whitesmoke;
-	font-size: 1.5rem;
+    color: whitesmoke;
+    font-size: 1.5rem;
 }
 
 #sentence {
-	color: green
-}
-
-footer {
-	margin-top: 3rem;
+    color: green;
 }
 
 .social-networks {
-	max-width: 50vw;
-	list-style-type: none;
-	margin: 20px auto;
-	padding: 0;
-	text-align: center;
-	margin-top: 1.5rem;
+    max-width: 50vw;
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 0;
+    text-align: center;
+    margin-top: 1.5rem;
 }
 
 .social-networks li {
-	display: inline-block;
-	width: 20%;
-	font-size: 4.5vmin;
+    display: inline-block;
+    width: 20%;
+    font-size: 4.5vmin;
 }
 
 .fab,
 .far {
-	font-weight: 400;
-	color: rgb(22, 219, 22);
+    font-weight: 400;
+    color: rgb(22, 219, 22);
 }
 
 .disabled {
-	opacity: 0.5;
-	pointer-events: none;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Define your custom CSS styles here */
+.about-aj,
+.about-sam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-aj .custom-col-md-6,
+.about-sam .custom-col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@media (max-width: 767px) {
+    .about-aj .custom-col-md-6,
+    .about-sam .custom-col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Navbar */
+.navbar {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.shamrock {
+    width: 50% !important; /* Adjust the percentage as needed */
+}
+
+/* Footer */
+footer {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
 }
