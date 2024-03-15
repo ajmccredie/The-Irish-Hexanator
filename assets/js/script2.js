@@ -15,11 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     confirmNameButton.addEventListener('click', () => {
         if (nameInput.value.trim()) {
-            const firstCurseSection = sections[1];
+            const firstCurseSection = sections[1]; // This assumes the first curse section is right after the name input section.
             firstCurseSection.classList.remove('hidden');
-            fadeIn(firstCurseSection, 500);
-            confirmNameButton.disabled = true;
-            curseButtons[0].disabled = false;
+            fadeIn(firstCurseSection, 500); // This smoothly transitions the section to visibility.
+            confirmNameButton.disabled = true; // Optionally disable the confirm button after it's used.
+            const firstCurseButton = curseButtons[0]; // Directly reference the first curse button.
+            firstCurseButton.disabled = false; // Enable the first curse button.
+            console.log('First curse button should now be enabled.');
         } else {
             showModalError("Please enter your Nemesis' name");
         }
