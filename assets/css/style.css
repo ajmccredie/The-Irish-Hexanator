@@ -209,6 +209,10 @@ button#refresh p {
     margin-right: 10px;
 }
 
+.shamrock {
+    width: 50% !important; /* Adjust the percentage as needed */
+}
+
 /* Footer */
 footer {
     background-color: orange;
