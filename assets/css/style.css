@@ -214,6 +214,14 @@ button#refresh p {
     width: 50% !important; /* Adjust the percentage as needed */
 }
 
+.l-what,
+.l-who,
+.l-where,
+.l-why,
+.l-when {
+    cursor: pointer;
+} 
+
 /* Footer */
 footer {
     background-color: orange;

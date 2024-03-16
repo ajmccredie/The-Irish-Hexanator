@@ -88,3 +88,57 @@ function fadeIn(element, duration) {
 // function showModalError(message) {
 //     alert(message); // Simplified for brevity; replace with modal implementation as needed.
 // }
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const whatDiv = document.querySelector('.l-what');
+    const whoDiv = document.querySelector('.l-who');
+    const whereDiv = document.querySelector('.l-where');
+    const whyDiv = document.querySelector('.l-why');
+    const whenDiv = document.querySelector('.l-when');
+
+    whatDiv.addEventListener('click', function () {
+        const dropDiv = document.querySelector('.what-drop');
+        if (dropDiv.style.display === 'none') {
+            dropDiv.style.display = 'block';
+        } else {
+            dropDiv.style.display = 'none';
+        }
+    });
+
+    whoDiv.addEventListener('click', function () {
+        const dropDiv = document.querySelector('.who-drop');
+        if (dropDiv.style.display === 'none') {
+            dropDiv.style.display = 'block';
+        } else {
+            dropDiv.style.display = 'none';
+        }
+    });
+
+    whereDiv.addEventListener('click', function () {
+        const dropDiv = document.querySelector('.where-drop');
+        if (dropDiv.style.display === 'none') {
+            dropDiv.style.display = 'block';
+        } else {
+            dropDiv.style.display = 'none';
+        }
+    });
+
+    whyDiv.addEventListener('click', function () {
+        const dropDiv = document.querySelector('.why-drop');
+        if (dropDiv.style.display === 'none') {
+            dropDiv.style.display = 'block';
+        } else {
+            dropDiv.style.display = 'none';
+        }
+    });
+
+    whenDiv.addEventListener('click', function () {
+        const dropDiv = document.querySelector('.when-drop');
+        if (dropDiv.style.display === 'none') {
+            dropDiv.style.display = 'block';
+        } else {
+            dropDiv.style.display = 'none';
+        }
+    });
+});
