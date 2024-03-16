@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 
-* {
+body {
 	box-sizing: border-box;
 	font-family: 'Irish Grover';
 	text-align: center;
@@ -25,7 +25,7 @@ h2 {
 #guide {
     height: 50vh;
     width: 100%;
-    background-image: url(..//css/Images/angry\ lep.jpeg);
+    background-image: url(..//css/Images/angry-leprechaun-bg-free.png);
     background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
@@ -198,7 +198,7 @@ button#refresh p {
 }
 
 /* Navbar */
-.navbar {
+/* .navbar {
     background-color: green;
     color: white;
     padding: 10px;
@@ -208,10 +208,61 @@ button#refresh p {
     color: white;
     text-decoration: none;
     margin-right: 10px;
+} */
+
+.irish-flag-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
 }
 
+.irish-flag-navbar .nav-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+}
+
+.irish-flag-navbar .nav-section,
+.irish-flag-navbar .nav-section a {
+    color: black; 
+}
+
+.irish-flag-navbar .nav-section a {
+    text-decoration: none; 
+}
+
+.irish-flag-navbar img {
+    max-height: 40px; 
+    width: auto;
+    margin: 0 auto; 
+}
+
+.green {
+    background-color: #169b62;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.orange {
+    background-color: #ff883e;
+}
+
+.irish-flag-navbar img {
+    max-height: 40px;
+    width: auto;
+    margin: 0 auto;
+}
+
+
 .shamrock {
-    width: 50% !important; /* Adjust the percentage as needed */
+    width: 50% !important;
 }
 
 .l-what,
